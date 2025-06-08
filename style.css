@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0f7fa, #ffffff, #e8f5e9);
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 1em 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.red { background-color: #ffcdd2; }
+.blue { background-color: #bbdefb; }
+.green { background-color: #c8e6c9; }
+
+footer {
+  padding: 1em;
+  font-size: 0.9em;
+  color: #777;
+}
